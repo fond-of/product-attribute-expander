@@ -19,8 +19,6 @@ class ProductAttributePageDataExpanderPlugin extends AbstractPlugin implements P
     public function expandProductPageData(array $productData, ProductPageSearchTransfer $productAbstractPageSearchTransfer)
     {
         $attributes = json_decode($productData['attributes'], true);
-        $attributes['model'] = 'test model';
-        //$superAttributes = json_decode($productData['SpyProductAbstract']['attributes'], true);
 
         $productAbstractPageSearchTransfer->setAttributes($attributes);
     }
