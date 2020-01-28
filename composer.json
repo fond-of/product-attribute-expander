@@ -21,10 +21,10 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "spryker/product-page-search": "^3.8.0",
+    "php": ">=7.2",
+    "spryker/product-page-search": "^3.16.0",
     "spryker/locale": "^3.3.0",
-    "spryker/search": "^8.8.1"
+    "spryker/search": "^8.11.1"
   },
   "require-dev": {
     "spryker/code-sniffer": "^0.14.7",
